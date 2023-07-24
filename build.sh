@@ -352,7 +352,7 @@ if [ "$OMR_TARGET" = "bpi-r1" ]; then
 	done
 	echo "done"
 fi
-chmod -R 777 "$OMR_TARGET/${OMR_KERNEL}/source"
+
 cd "$OMR_TARGET/${OMR_KERNEL}/source"
 
 #if [ "$OMR_UEFI" = "yes" ] && [ "$OMR_TARGET" = "x86_64" ]; then 
